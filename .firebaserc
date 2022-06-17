@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pruebaprogra-bc6d7": {
+      "hosting": {
+        "PruebaProgra": [
+          "pruebaprogra-bc6d7"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pruebaprogra-bc6d7"
+  }
+}
