@@ -8,9 +8,10 @@
         <th>Edad</th>
     </tr>
     <tr *ngFor="let persona of listado | async">
-        <td>{{persona.firstname}}</td>
-        <td>{{persona.lastname}}</td>
-        <td>{{persona.age}}</td>
         <td>{{persona.uid}}</td>
+        <td>{{persona.nombre}}</td>
+        <td>{{persona.apellido}}</td>
+        <td>{{persona.age}}</td>
+        
     </tr>
 </table>

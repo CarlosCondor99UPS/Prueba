@@ -1,5 +1,7 @@
+import { Serializer } from '@angular/compiler';
 import { Injectable } from '@angular/core';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -7,7 +9,7 @@ import { AngularFirestore } from '@angular/fire/compat/firestore';
 export class PersonasService {
 
   constructor(private afs: AngularFirestore) { }
-  async getListaContactos(){
+  getListaContactos(): Observable<any>{
     const refContactos = this.afs.collection("personas")
     return refContactos.valueChanges()
   }
