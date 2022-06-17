@@ -8,5 +8,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## VIDEO del funcionamiento
 
-https://drive.google.com/file/d/1_dYQ0qHjzf854lTG5OBcocfLKfjpFVGn/view?usp=sharing
+https://drive.google.com/file/d/1ftSzY4QWSeiz2LkzoX3FmteeYGV84qWG/view?usp=sharing 
+Link actualizado con permisos
 
